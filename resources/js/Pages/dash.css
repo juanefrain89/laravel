@@ -1,0 +1,341 @@
+body, html{
+    background-color: #F0F2F5;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.menu{
+    width: 250px;
+    height: 100%;
+
+    padding: 25px;
+    box-sizing: border-box;
+
+
+}
+
+.mm{
+    position: fixed;
+    box-sizing: border-box;
+    width: 200px;
+    height: 100%;
+    border-right: #E2E5E8 1px solid ;
+}
+.nose{
+    position: fixed;
+    box-sizing: border-box;
+  width:300px ;
+    height: 100%;
+
+}
+
+.meta{
+    width: 90%;
+}
+
+.iconos{
+    height: 70%;
+    width:  100%;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   margin-left: 20px;
+   margin-top: 80px;
+   font-size: 30px;
+   font-family: 'Courier New', Courier, monospace;
+}
+.iconos >p{
+    color: black;
+}
+
+.derecha{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+
+}
+
+.padre{
+    display: flex;
+    height: 100%;
+}
+
+.publicaciones{
+    width:  80%;
+
+    height: 3999px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.publicacion{
+    width: 100%;
+    padding: 20px;
+    background-color:#FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 55px;
+}
+
+.publicacion >img{
+    width: 100%;
+    height: 300px;
+}
+
+
+.grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 65% 35% ;
+}
+
+.reacciones{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    border-bottom: #434343 1px solid;
+}
+
+.likes >p, .comentarios >p{
+    color: white;
+    font-size: 25px;
+}
+
+.likes, .comentarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+
+.imagenpublicacion{
+    display: flex;
+    align-items: center;
+}
+
+.iim{
+    border-radius: 555px;
+    width: 70px;
+    height: 70px;
+
+
+
+}
+
+.iim >img{
+    width: 100%;
+    height:100% ;
+    border: #0B5ED7 2px solid;
+    border-radius: 555px;
+}
+
+.nombreperfil >p{
+    margin-left: 15px;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    }
+
+    .descripcionpublicacion{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: rgb(3, 3, 3);
+        }
+
+        .comentar{
+            width: 100%;
+            margin-top: 10px;
+            display: flex;
+            justify-content:space-between;
+
+            align-items: center;
+
+        }
+
+        #textcomentar{
+            height: 55px;
+            width: 60%;
+
+         }
+         .comentar >img{
+            width: 55px;
+            height:55px ;
+            border: #0B5ED7 2px solid;
+            border-radius: 555px;
+         }
+
+         .comentar >button{
+            width: 20%;
+            background-color: #0B5ED7;
+            height: 40px;
+            border: none;
+            color: white;
+            font-size: 24px;
+            border-radius: 10px;
+         }
+
+         .publicar{
+            width:100% ;
+            height: 300px;
+            background-color: #FFFFFF;
+            border-radius: 10px;
+            padding: 30px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .abajopublicar{
+            width: 100%;
+            height: 20% ;
+            display: flex;
+
+
+        }
+        #text{
+            width: 100%;
+            height: 80% ;
+            border: solid #CED4DA 1px;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        #textcomentar{
+            height: 55px;
+            width: 60%;
+
+         }
+         .postboton{
+            background-color: #0B5ED7;
+            border-radius: 10px;
+            border: none;
+            width: 20%;
+            height: 40px;
+            color: white;
+            font-size: 1.5rem;
+            margin-top: 15px;
+
+            margin-left: auto;
+        }
+
+
+        .sugerencias{
+            position: relative;
+            width: 100%;
+            height: 100%;
+          border-left:  #E2E5E8 1px solid;
+            padding: 30px;
+            box-sizing: border-box;
+            position: relative;
+            background-color:#F0F2F5;
+        }
+
+        .buscar{
+            width: 100%;
+            height: 40px;
+
+        }
+
+        .contenedorsugerencias{
+width: 100%;
+height: 140px;
+margin-top: 25px;
+background-color: #CED4DA;
+        }
+
+        .sugerenciauno
+        {
+            width: 100%;
+            height: 100%;
+            margin-bottom: 3%;
+            background-color: white;
+            box-sizing: border-box;
+        }
+        .sg{
+            width: 100%;
+            height: 100%;
+            margin-bottom: 3%;
+            background-color: white;
+            box-sizing: border-box;
+            position: relative;
+            overflow: hidden;
+
+        }
+
+        .portadasugerencia{
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+
+
+
+           z-index: 5;
+
+        }
+        .pp{
+            z-index: 1;
+            color:white;
+           font-size: 23px;
+           bottom: 1px;
+           margin-left: 140px;
+
+        }
+
+        .abs{
+            width: 100%;
+            height: 50%;
+            background-color: black;
+            opacity: 0.8;
+            bottom: 0;
+            position: absolute;
+            padding: auto;
+
+            border-radius: 0 0 10px 10px;
+        }
+
+        .perfilsugerencia{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            border: 1px solid red;
+            z-index: 5;
+           border-radius: 555px;
+            top:5%;
+            left: 10px;
+
+        }
+
+        .kareli{
+            width: 100%;
+            height: 100%;
+            border-radius: 555px;
+        }
+
+        .buscar{
+            border-radius: 10px;
+            border: #097DF7 1px solid;
+            padding-left: 7px;
+            font-size: 15px;
+        }
+
+        @media (max-width: 600px) {
+            .grid{
+                grid-template-columns: 1fr;
+            }
+
+            .menu{
+                  display: none;
+            }
+        }

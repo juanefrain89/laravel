@@ -1,0 +1,79 @@
+form{
+    background-color: rgb(45, 42, 42);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    width: 35%;
+margin-left: auto;
+margin-right: auto;
+height: 80% !important;
+margin-top: 55px;
+
+
+
+}
+body{
+    background-color: #ededed;
+    height: 100vh !important;
+}
+#app{
+    height: 100% !important;
+}
+
+form > input{
+    margin-top:40px ;
+border-radius: 0px !important;
+    max-width: 400px !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border: none;
+    outline: none;
+    background-color: rgb(45, 42, 42) !important;
+    border-bottom: 1px solid white;
+
+}
+form >input::placeholder{
+
+}
+.divfomr{
+width: 90%;
+background-color: aqua;
+height: 25px;
+
+max-width: 400px !important;
+margin-left: auto;
+margin-right: auto;
+margin-top: 60px;
+display: flex;
+justify-content: space-between;
+
+}
+
+
+.divfomr > button{
+    background-color: rgb(4, 187, 4);
+    width: 45%;
+    height: 35px;
+
+    width: 100%;
+max-width: 400px !important;
+
+}
+.h{
+    margin-left: auto;
+margin-right: auto;
+margin-top: 55px;
+
+    font-size: 35px;
+}
+
+.enlace-registro{
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+color: green;
+border-bottom: 1px solid rgb(4, 187, 4);
+
+}
